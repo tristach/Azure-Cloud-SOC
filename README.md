@@ -1,6 +1,6 @@
-# Cybersecurity Vulnerability Management Remediation
+# Azure cloud SOC
 
-# Skills used.
+
 ![Cloud Honeynet / SOC](https://i.imgur.com/ZWxe03e.jpg)
 
 ## Introduction
