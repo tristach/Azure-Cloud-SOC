@@ -1,6 +1,6 @@
-# Azure-Cloud-SOC
+# Cybersecurity Vulnerability Management Remediation
 
-# SOC and Honeynet in Azure (Traffic Map)
+# Skills used.
 ![Cloud Honeynet / SOC](https://i.imgur.com/ZWxe03e.jpg)
 
 ## Introduction
