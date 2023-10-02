@@ -1,7 +1,7 @@
 # Azure cloud SOC
 
+<img width="348" alt="image" src="https://github.com/tristach/Azure-Cloud-SOC/assets/5705748/923b0e01-b332-4300-ac8c-2c19fdc9f0b2">
 
-![Cloud Honeynet / SOC](https://i.imgur.com/ZWxe03e.jpg)
 
 ## Introduction
 
