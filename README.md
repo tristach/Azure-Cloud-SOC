@@ -27,11 +27,21 @@ For the "BEFORE" metrics, all resources were originally deployed, exposed to the
 
 For the "AFTER" metrics, Network Security Groups were hardened by blocking ALL traffic with the exception of my admin workstation, and all other resources were protected by their built-in firewalls as well as Private Endpoint
 
-## Attack Maps Before Hardening / Security Controls
+## Attack Maps Before Hardening / Security Controls-Russia
+<img width="806" alt="image" src="https://github.com/tristach/Azure-Cloud-SOC/assets/5705748/bae83ccd-1472-4578-8df9-e7f4c82d9ac7">
+
+## Attack Maps Before Hardening / Security Controls-Mixico
 ![image](https://github.com/tristach/Azure-Cloud-SOC/assets/5705748/13178d36-c772-44ab-b796-33d5d6a59d18)
 
 ## Attack Maps After Hardening / Security Controls
 ![image](https://github.com/tristach/Azure-Cloud-SOC/assets/5705748/b2ad0fbb-87f7-4b6c-addb-1e63ba275c38)
+
+
+## Syslog Example (KQL) 
+<img width="883" alt="image" src="https://github.com/tristach/Azure-Cloud-SOC/assets/5705748/e09c13c7-e54c-4ff2-ad20-c98978b2e2e3">
+
+## Syslog Example (KQL) Expanded
+<img width="429" alt="image" src="https://github.com/tristach/Azure-Cloud-SOC/assets/5705748/6d2b00d8-700c-4ab7-80e5-b5a6106bce08">
 
 
 ##
