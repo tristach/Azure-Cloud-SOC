@@ -30,7 +30,7 @@ For the "AFTER" metrics, Network Security Groups were hardened by blocking ALL t
 ## Attack Maps Before Hardening / Security Controls-Russia
 <img width="806" alt="image" src="https://github.com/tristach/Azure-Cloud-SOC/assets/5705748/bae83ccd-1472-4578-8df9-e7f4c82d9ac7">
 
-## Attack Maps Before Hardening / Security Controls-Mixico
+## Attack Maps Before Hardening / Security Controls-Mexico
 ![image](https://github.com/tristach/Azure-Cloud-SOC/assets/5705748/13178d36-c772-44ab-b796-33d5d6a59d18)
 
 ## Attack Maps After Hardening / Security Controls
