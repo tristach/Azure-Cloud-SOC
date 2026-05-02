@@ -2,8 +2,6 @@
 
 <img width="348" alt="image" src="https://github.com/tristach/Azure-Cloud-SOC/assets/5705748/923b0e01-b332-4300-ac8c-2c19fdc9f0b2">
 
-This project demonstrates a cloud-based Security Operations Center (SOC) built in Microsoft Azure to detect and analyze real-world cyber attacks.
-
 ## Overview
 
 I built a honeynet environment using Azure resources and exposed it to the internet to simulate real-world attack conditions. Using Microsoft Sentinel, I collected logs, created detection rules, and analyzed malicious activity from live attackers.
@@ -25,9 +23,6 @@ I built a honeynet environment using Azure resources and exposed it to the inter
 - Incident creation and alerting in Microsoft Sentinel  
 - Automation using Logic Apps for alert notifications  
 - Visualization of attack data using dashboards and workbooks  
-
-We build a mini honeynet in Azure, ingested log sources from various resources into Log Analytics workspace, which is then used by Microsoft Sentinel to build attack maps, trigger alerts, and create incidents. We measured some security metrics in the insecure environment for 24 hours, hardended the environemt by adding basic security controls, then measured again 24 hours later.  Systems used are as follows:  
-
 - SecurityEvent (Windows Event Logs)
 - Syslog (Linux Event Logs)
 - SecurityAlert (Log Analytics Alerts Triggered)
