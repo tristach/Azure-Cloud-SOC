@@ -2,9 +2,6 @@
 
 <img width="348" alt="image" src="https://github.com/tristach/Azure-Cloud-SOC/assets/5705748/923b0e01-b332-4300-ac8c-2c19fdc9f0b2">
 
-
-# Azure SOC Honeynet (Microsoft Sentinel)
-
 This project demonstrates a cloud-based Security Operations Center (SOC) built in Microsoft Azure to detect and analyze real-world cyber attacks.
 
 ## Overview
