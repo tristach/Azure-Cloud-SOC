@@ -68,9 +68,6 @@ The honeynet environment in Azure includes:
 
 
 ##
-<img width="514" alt="image" src="https://github.com/tristach/Azure-Cloud-SOC/assets/5705748/d99f493f-cfce-44bf-9e00-bd3f3ca4f84d">
-
-##
 Metric                          Before     After     Reduction
 -------------------------------------------------------------
 Windows Security Events         5611       110       -98.0%
