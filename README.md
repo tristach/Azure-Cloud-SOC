@@ -50,17 +50,18 @@ The honeynet environment in Azure includes:
 - NSGs restricted to allow only trusted access
 - Built-in firewalls enabled
 - Private endpoints used where possible
+- 
 ## Attack Maps Before Hardening / Syslog, Linux.
+<img width="577" height="299" alt="image" src="https://github.com/user-attachments/assets/c387e281-5c35-43dc-be41-91e845da2c3a" />
 
-<img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/828d3646-a2fa-4d7e-a2c7-0f370661c29a" />
-
-## Attack Maps Before Hardening / Security Controls-Mexico
-![image](https://github.com/tristach/Azure-Cloud-SOC/assets/5705748/13178d36-c772-44ab-b796-33d5d6a59d18)
+## Attack Maps Before Hardening / Windows.
+<img width="679" height="328" alt="image" src="https://github.com/user-attachments/assets/3d74b936-1c94-44a6-bfa1-23709c034672" />
 
 ## Attack Maps After Hardening / Syslog, Linux.
 <img width="493" height="298" alt="image" src="https://github.com/user-attachments/assets/11fb724c-8cd7-4069-a665-f164a28d7fa7" />
 
-
+## Attack Maps After Hardening / Windows.
+<img width="629" height="329" alt="image" src="https://github.com/user-attachments/assets/76fb7184-05cf-4e1f-a35c-a9eeccc88fad" />
 
 
 ## Syslog Example (KQL) 
