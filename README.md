@@ -57,6 +57,7 @@ The honeynet environment in Azure includes:
 ## Attack Maps After Hardening – Linux (Syslog / SSH)
 <img width="493" height="298" alt="image" src="https://github.com/user-attachments/assets/11fb724c-8cd7-4069-a665-f164a28d7fa7" />
 
+
 ## Attack Maps Before Hardening – Windows (Security Events)
 <img width="679" height="328" alt="image" src="https://github.com/user-attachments/assets/3d74b936-1c94-44a6-bfa1-23709c034672" />
 
@@ -82,7 +83,6 @@ The honeynet environment in Azure includes:
 
 **Note:** Metrics were collected over identical 24-hour periods. Reductions reflect restricted network access and applied security controls, which significantly reduced observable malicious activity.
 
-## Conclusion -->
 ## Conclusion
 
 This project demonstrates how exposing cloud resources to the public internet results in significant malicious activity, including authentication attempts and automated attacks.
