@@ -59,6 +59,9 @@ The honeynet environment in Azure includes:
 
 
 
+
+
+
 ## Attack Maps Before Hardening – Windows (Security Events)
 <img width="679" height="328" alt="image" src="https://github.com/user-attachments/assets/3d74b936-1c94-44a6-bfa1-23709c034672" />
 
