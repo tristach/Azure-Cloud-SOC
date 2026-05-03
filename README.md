@@ -71,8 +71,13 @@ The honeynet environment in Azure includes:
 <img width="514" alt="image" src="https://github.com/tristach/Azure-Cloud-SOC/assets/5705748/d99f493f-cfce-44bf-9e00-bd3f3ca4f84d">
 
 ##
-<img width="508" alt="image" src="https://github.com/tristach/Azure-Cloud-SOC/assets/5705748/ae3aa4d4-0f07-4a88-838c-7da8442b51c7">
-
+Metric                          Before     After     Reduction
+-------------------------------------------------------------
+Windows Security Events         5611       110       -98.0%
+Linux Syslog Events             19059      344       -98.2%
+Security Alerts                 6          0         -100%
+Security Incidents              249        0         -100%
+NSG Malicious Flows Allowed     1140       0         -100%
 
 
 ## Conclusion -->
