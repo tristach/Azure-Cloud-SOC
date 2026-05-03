@@ -29,20 +29,27 @@ I built a honeynet environment using Azure resources and exposed it to the inter
 - SecurityIncident (Incidents created by Sentinel)
 - AzureNetworkAnalytics_CL (Malicious Flows allowed into our honeynet)
 
-The architecture of the mini honeynet in Azure are as follows:
+## Architecture
+
+The honeynet environment in Azure includes:
 
 - Virtual Network (VNet)
-- Network Security Group (NSG)
-- Virtual Machines (2 windows, 1 linux)
+- Network Security Groups (NSGs)
+- Windows & Linux Virtual Machines
 - Log Analytics Workspace
-- Azure Key Vault
-- Azure Storage Account
 - Microsoft Sentinel
 
-For the "BEFORE" metrics, all resources were originally deployed, exposed to the internet. The Virtual Machines had both their Network Security Groups and built-in firewalls wide open, and all other resources are deployed with public endpoints visible to the Internet; aka, no use for Private Endpoints.
+## Security Hardening
 
-For the "AFTER" metrics, Network Security Groups were hardened by blocking ALL traffic with the exception of my admin workstation, and all other resources were protected by their built-in firewalls as well as Private Endpoint
+**Before:**
+- All resources exposed to the internet
+- NSGs and firewalls left open
+- Public endpoints enabled
 
+**After:**
+- NSGs restricted to allow only trusted access
+- Built-in firewalls enabled
+- Private endpoints used where possible
 ## Attack Maps Before Hardening / Security Controls-Russia
 <img width="806" alt="image" src="https://github.com/tristach/Azure-Cloud-SOC/assets/5705748/bae83ccd-1472-4578-8df9-e7f4c82d9ac7">
 
