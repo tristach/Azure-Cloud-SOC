@@ -68,13 +68,17 @@ The honeynet environment in Azure includes:
 
 
 ##
-Metric                          Before     After     Reduction
--------------------------------------------------------------
-Windows Security Events         5611       110       -98.0%
-Linux Syslog Events             19059      344       -98.2%
-Security Alerts                 6          0         -100%
-Security Incidents              249        0         -100%
-NSG Malicious Flows Allowed     1140       0         -100%
+## Results / Impact
+
+| Metric | Before | After | Reduction |
+|--------|--------|-------|----------|
+| Windows Security Events | 5611 | 110 | -98.0% |
+| Linux Syslog Events | 19059 | 344 | -98.2% |
+| Security Alerts | 6 | 0 | -100% |
+| Security Incidents | 249 | 0 | -100% |
+| NSG Malicious Flows Allowed | 1140 | 0 | -100% |
+
+**Note:** Reductions reflect hardened network controls and reduced attack surface, which significantly limited observable malicious activity.
 
 
 ## Conclusion -->
