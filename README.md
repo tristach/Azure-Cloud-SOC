@@ -51,28 +51,26 @@ The honeynet environment in Azure includes:
 - Built-in firewalls enabled
 - Private endpoints used where possible
 - 
-## Attack Maps Before Hardening / Syslog, Linux.
+## Attack Maps Before Hardening – Linux (Syslog / SSH)
 <img width="577" height="299" alt="image" src="https://github.com/user-attachments/assets/c387e281-5c35-43dc-be41-91e845da2c3a" />
 
-## Attack Maps Before Hardening / Windows.
-<img width="679" height="328" alt="image" src="https://github.com/user-attachments/assets/3d74b936-1c94-44a6-bfa1-23709c034672" />
-
-## Attack Maps After Hardening / Syslog, Linux.
+## Attack Maps After Hardening – Linux (Syslog / SSH)
 <img width="493" height="298" alt="image" src="https://github.com/user-attachments/assets/11fb724c-8cd7-4069-a665-f164a28d7fa7" />
 
-## Attack Maps After Hardening / Windows.
+## Attack Maps Before Hardening – Windows (Security Events)
+<img width="679" height="328" alt="image" src="https://github.com/user-attachments/assets/3d74b936-1c94-44a6-bfa1-23709c034672" />
+
+## Attack Maps After Hardening – Windows (Security Events)
 <img width="629" height="329" alt="image" src="https://github.com/user-attachments/assets/76fb7184-05cf-4e1f-a35c-a9eeccc88fad" />
 
 
-## Syslog Example (KQL) 
+## KQL Query – Linux SSH Authentication Failures
 <img width="883" alt="image" src="https://github.com/tristach/Azure-Cloud-SOC/assets/5705748/e09c13c7-e54c-4ff2-ad20-c98978b2e2e3">
 
-## Syslog Example (KQL) Expanded
+## Expanded Results – Linux SSH Logs
 <img width="429" alt="image" src="https://github.com/tristach/Azure-Cloud-SOC/assets/5705748/6d2b00d8-700c-4ab7-80e5-b5a6106bce08">
 
-
-##
-## Results / Impact
+## Results – 24 Hour Before vs After Comparison
 
 | Metric | Before | After | Reduction |
 |--------|--------|-------|----------|
@@ -82,11 +80,14 @@ The honeynet environment in Azure includes:
 | Security Incidents | 249 | 0 | -100% |
 | NSG Malicious Flows Allowed | 1140 | 0 | -100% |
 
-**Note:** Reductions reflect hardened network controls and reduced attack surface, which significantly limited observable malicious activity.
-
+**Note:** Metrics were collected over identical 24-hour periods. Reductions reflect restricted network access and applied security controls, which significantly reduced observable malicious activity.
 
 ## Conclusion -->
+## Conclusion
 
-In this project, a mini honeynet was constructed in Microsoft Azure and log sources were integrated into a Log Analytics workspace. Microsoft Sentinel was employed to trigger alerts and create incidents based on the ingested logs. Additionally, metrics were measured in the insecure environment before security controls were applied, and then again after implementing security measures. It is noteworthy that the number of security events and incidents were drastically reduced after the security controls were applied, demonstrating their effectiveness.
+This project demonstrates how exposing cloud resources to the public internet results in significant malicious activity, including authentication attempts and automated attacks.
 
-It is worth noting that if the resources within the network were heavily utilized by regular users, it is likely that more security events and alerts may have been generated within the 24-hour period following the implementation of the security controls.
+After applying basic security controls such as network restrictions and access hardening, observable attack activity was reduced by over 98% across all monitored data sources.
+
+These results highlight the importance of minimizing attack surface and enforcing access controls in cloud environments.
+
